@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 from keras.preprocessing import image
 
-model = load_model(r'C:\Users\dawid\Desktop\FaceRecognitionWMA4\face_classifier.h5')
+model = load_model(r'face_classifier.h5')
 
 class_labels = {0: 'Aaron_Eckhart', 1: 'other'} 
 

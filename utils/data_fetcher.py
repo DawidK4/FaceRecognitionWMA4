@@ -2,7 +2,7 @@ from icrawler.builtin import GoogleImageCrawler
 from PIL import Image
 import os
 
-download_dir = r'C:\Users\dawid\Desktop\FaceRecognitionWMA4\organized_faces\Aaron_Eckhart'
+download_dir = r'faces\Aaron_Eckhart'
 image_size = (200, 200)
 max_images = 200
 
